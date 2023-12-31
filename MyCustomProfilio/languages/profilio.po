@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 19:32+0800\n"
+"PO-Revision-Date: 2023-12-07 20:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:5
+msgctxt "post type general name"
+msgid "Custom Posts"
+msgstr "自定义文章"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:6
+msgctxt "post type singular name"
+msgid "Custom Post"
+msgstr "自定义文章"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:7
+msgctxt "admin menu"
+msgid "Custom Posts"
+msgstr "自定义文章"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:8
+msgctxt "add new on admin bar"
+msgid "Custom Post"
+msgstr "自定义文章"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:9
+msgctxt "custom post"
+msgid "Add New"
+msgstr "新增"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:10
+msgid "Add New Custom Post"
+msgstr "添加新的自定义职位"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:11
+msgid "New Custom Post"
+msgstr "新建自定义类型"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:12
+msgid "Edit Custom Post"
+msgstr "编辑自定义类型"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:13
+msgid "View Custom Post"
+msgstr "查看自定义帖子"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:14
+msgid "All Custom Posts"
+msgstr "所有自订文章"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:15
+msgid "Search Custom Posts"
+msgstr "搜索自定义职位"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:16
+msgid "Parent Custom Posts:"
+msgstr "家长自定义职位："
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:17
+msgid "No custom posts found."
+msgstr "未找到自定义职位。"
+
+#: E:\phpstudy_pro\WWW\wordpress\wp-content\themes\MyCustomProfilio\functions.php:18
+msgid "No custom posts found in Trash."
+msgstr "垃圾桶中未发现自定义职位。"

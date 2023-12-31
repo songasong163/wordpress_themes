@@ -1,0 +1,410 @@
+.header{
+    background:url("../img/headimg1.jpg");
+    background-size: cover;
+    /* height: 75vh; */
+}
+.navbg{
+    background-color: rgba(255,255,255,0.5);
+}
+/* .lightbi{
+    font-s
+} */
+textarea{
+    border: none;
+    outline: none; /* 取消聚焦时的轮廓线 */
+    resize: none; /* 防止用户调整大小 */
+    font-size:2rem;
+    
+    
+}
+.glints textarea{
+    background-color:rgba(140, 89, 250,1);
+    text-align: center;
+}.glints{
+    position: relative;
+    margin-top:-25vh;
+}
+.bg-gradient1 {
+    background: linear-gradient(to right top, #fc00ff, #00dbde);
+}
+.font-am{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(244, 102, 42);
+}
+.custom-card-img{
+    object-fit: cover; /* 对图片进行高度剪裁 */
+    object-position: center; /* 图片在容器中居中显示 */
+    height:20vh;
+}
+/* .work_expirence{
+    background: url("https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg");
+    background-size:cover;
+    height:100vh;
+} */
+.bg-custom-color1{
+    background-color:rgba(106, 164, 251,0.1);
+    
+}
+.bg-custom-color2{
+    background-color: #8960fa;
+}
+.bg-custom-color3{
+    background-color: rgba(137, 96, 250,0.1);
+    
+}
+
+
+@media (min-width: 576px) {
+    .custom-height {
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-height {
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (min-width: 992px){
+    .custom-height {
+        height: auto;
+    }
+}
+
+/* 时间轴 */
+.main-timeline{
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+.main-timeline:before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: rgba(87, 127, 228, 0.2);
+    margin: 0 0 0 -1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.main-timeline .timeline{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main-timeline .timeline:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline-content{
+    width: 40%;
+    float: left;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+}
+.main-timeline .date{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #6aa0fc;
+    padding: 5px 0;
+    margin: 0 0 0 -36px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 0 7px #94daff;
+}
+.main-timeline .date span{
+    display: block;
+    text-align: center;
+}
+.main-timeline .day,
+.main-timeline .year{
+    font-size: 10px;
+}
+.main-timeline .month{
+    font-size: 18px;
+}
+.main-timeline .title{
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+.main-timeline .title:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+.main-timeline .description{
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    color: #656565;
+    background: #fff;
+    border-radius: 0 0 6px 6px;
+}
+.main-timeline .timeline:nth-child(2n+2) .timeline-content{
+    float: right;
+}
+.main-timeline .timeline:nth-child(2n+2) .title:after{
+    left: -5px;
+}
+.main-timeline .timeline:nth-child(1) .title,
+.main-timeline .timeline:nth-child(1) .title:after{
+    background: #9f84c4;
+}
+.main-timeline .timeline:nth-child(2) .title,
+.main-timeline .timeline:nth-child(2) .title:after{
+    background: #02a2dd;
+}
+.main-timeline .timeline:nth-child(3) .title,
+.main-timeline .timeline:nth-child(3) .title:after{
+    background: #58b25e;
+}
+.main-timeline .timeline:nth-child(4) .title,
+.main-timeline .timeline:nth-child(4) .title:after{
+    background: #eab715;
+}
+.main-timeline .timeline:nth-child(5) .title,
+.main-timeline .timeline:nth-child(5) .title:after{
+    background: #95f45b;
+}
+.main-timeline .timeline:nth-child(6) .title,
+.main-timeline .timeline:nth-child(6) .title:after{
+    background: #736ff7;
+}
+.main-timeline .timeline:nth-child(7) .title,
+.main-timeline .timeline:nth-child(7) .title:after{
+    background: #f272df;
+}
+.main-timeline .timeline:nth-child(8) .title,
+.main-timeline .timeline:nth-child(8) .title:after{
+    background: #e47534;
+}
+.main-timeline .timeline:nth-child(9) .title,
+.main-timeline .timeline:nth-child(9) .title:after{
+    background: #b1d64c;
+}
+.main-timeline .timeline:nth-child(10) .title,
+.main-timeline .timeline:nth-child(10) .title:after{
+    background: #84d6e9;
+}
+@media only screen and (max-width: 990px){
+    .main-timeline{ width: 100%; }
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before,
+    .main-timeline .date{
+        left: 6%;
+    }
+    .main-timeline .timeline-content{
+        width: 85%;
+        float: right;
+    }
+    .main-timeline .title:after{
+        left: -5px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .main-timeline:before,
+    .main-timeline .date{
+        left: 12%;
+    }
+    .main-timeline .timeline-content{
+        width: 75%;
+    }
+    .main-timeline .date{
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+    }
+    .main-timeline .month{
+        font-size: 14px;
+    }
+}     
+.rounded-custom{
+border-radius: 0 25px 25px 0;
+}
+
+/* 竖版字体 */
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 576px) {
+    .vertical-text {
+      writing-mode: horizontal-tb !important;
+      white-space: normal !important;
+      font-size: 2rem;
+      font-weight: 800;
+      padding:20px;
+      width: 90%;
+    }
+  }
+.carousel {
+    margin: auto;
+}
+.banner-img{
+    height:60vh;
+    /* object-fit: cover; */
+}
+@media (max-width: 992px) {
+    .banner-img{
+        height:40vh;
+    }
+}
+@media (max-width: 576px) {
+    .banner-img{
+        height:20vh;
+    }
+}
+
+.img-custom-effect{
+    height: 35vh;
+}
+/* . {
+    position: relative;
+    display: inline-block;
+} */
+
+.img-custom-effect:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+/* 瀑布流 */
+.masonry-container {
+    column-count: 4;
+    column-gap: 20px;
+  }
+
+  .masonry-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    break-inside: avoid;
+  }
+
+  @media (max-width: 991px) {
+    .masonry-container {
+      column-count: 3;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .masonry-container {
+      column-count: 2;
+    }
+  }
+  .footer{
+    background-color: #8191fe;
+  }
+
+
+  /* 文本彩色流体效果 */
+  .synopsis{
+    color: #fff;
+    letter-spacing: 2px; 
+    line-height: 76px;
+    outline: none;
+    --c:lightseagreen;
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c),
+    0 0 40px var(--c),
+    0 0 80px var(--c),
+    0 0 160px var(--c);
+    animation: animate 5s linear infinite;
+}
+/* 定义动画 */
+@keyframes animate{
+    to{
+        /* 色相旋转过滤镜（设置度数可改变颜色） */
+        filter: hue-rotate(360deg);
+    }
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+     padding: 0 10px 0 10px;  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card {
+    
+    overflow: hidden; /* 隐藏溢出内容 */
+  }
+  
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* 设置要显示的行数 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* 添加省略号 */
+  }
+
+  .post_list_icon{
+    margin-right:5px;
+    margin-left:10px;
+  }
+
+  .card-abstract{
+    height: 3.6em; /* 2行文本的高度 */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 指定要显示的行数 */    
+  }
+
+
+.post-head-img{
+    width: 100%;
+    height:50vh;
+    object-fit: cover;
+}
+
+.content_text{
+    min-height: 400px;
+}
+
+.post_content p {
+    text-indent: 2em;
+}
+
+.author_name{
+    font-size: 0.8em;
+    margin-left:5px;
+    color:#b4b0b0;
+}

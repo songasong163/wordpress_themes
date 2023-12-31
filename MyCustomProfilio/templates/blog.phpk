@@ -1,0 +1,7 @@
+<?php
+    /* 
+    Template Name: Blog Template
+    */
+?>
+<h1>Blog模板</h1>
+<?php get_footer(); ?>
